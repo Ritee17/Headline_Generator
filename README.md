@@ -49,8 +49,8 @@ The core of this project is a **Seq2Seq** model designed to map long sequences (
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/headline-generator.git](https://github.com/your-username/headline-generator.git)
-cd headline-generator
+git clone [https://github.com/Ritee17/Headline_Generator](https://github.com/Ritee17/Headline_Generator)
+cd Headline_Generator
 
 ```
 
