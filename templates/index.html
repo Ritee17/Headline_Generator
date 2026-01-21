@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Headline Generator</title>
+    <link rel="stylesheet" href="{{url_for('static' , filename='style.css')}}">
+</head>
+<body>
+    <div class="container">
+        <h1>📰 AI News Summarizer</h1>
+        <p>Paste a news article below to generate a headline.</p>
+        
+        <form action="/predict" method="post">
+            <textarea name="article_text" placeholder="Paste your full news article here..." required>{{ request.form['article_text'] }}</textarea>
+            <br>
+            <button type="submit">✨ Generate Headline</button>
+        </form>
+
+        {% if prediction %}
+        <div class="result-box">
+            <h3>Generated Headline:</h3>
+            <p>{{ prediction }}</p>
+        </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
