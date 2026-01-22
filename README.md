@@ -2,6 +2,8 @@
 
 An end-to-end Natural Language Processing (NLP) web application that generates concise headlines from long-form news articles. Built from scratch using a **Sequence-to-Sequence (Seq2Seq)** architecture with **Bahdanau Attention**, trained on a dataset of 300,000+ news samples.
 
+🛑 Live Demo [https://huggingface.co/spaces/Ritee17/Headlie_Generator](https://huggingface.co/spaces/Ritee17/Headlie_Generator)
+
 ## 🚀 Features
 * **Abstractive Summarization:** Generates new sentences rather than just extracting existing ones.
 * **Attention Mechanism:** Uses Bahdanau (Additive) Attention to focus on relevant parts of the source text during generation.
